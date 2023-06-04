@@ -1,0 +1,14 @@
+.auth {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.theme {
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+
+.theme:hover {
+    transform: scale(1.1);
+}

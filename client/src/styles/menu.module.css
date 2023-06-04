@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.input{
+    text-align: center;
+    border-style: none;
+    font-size: 20px;
+    outline: none;
+    background-color: transparent;
+    color: var(--text-color);
+    border-bottom:1px solid var(--border-bottom);
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background: var(--background-input);
+    border: 2px solid #000000;
+    border-radius: 7px;
+    color: var(--text-color);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.item {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    background: var(--background-input);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.file {
+    margin-top: 10px;
+    position: relative;
+}
+
+.fileInput {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.img {
+    border-radius: 7px;
+    height: 200px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+}
