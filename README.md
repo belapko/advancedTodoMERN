@@ -10,6 +10,6 @@
   
   STATIC=http://localhost:8000/uploads/
   
-# 2. Go to server and run "npm install", than run "prisma generate", "npm run dev"
+# 2. Go to server and run "npm install", than run "npx prisma generate", "npm run start" or install nodemon for comfortable development
 
 # 3. Go to client and run "npm install", "npm run start"
